@@ -1,0 +1,40 @@
+input.invalid, textarea.invalid{
+    border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+    border: 2px solid green;
+}
+
+input:focus.invalid {
+    border: 1px solid red;
+}
+.form-control {
+    width: 400px;
+}
+body {
+    padding: 10px;
+    background-color: aquamarine;
+}
+h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+    font-size: 25px;
+}
+#container
+{
+    width: 700px;
+    border-color: aqua;
+    border:15px;
+    margin-left:400px;
+    margin-top: 50px;
+    border-width: 5px;
+
+}
+}
+input[type="radio"]{
+    display:inline;
+    padding-left: 40px;
+}
